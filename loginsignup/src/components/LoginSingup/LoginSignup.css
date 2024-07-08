@@ -1,0 +1,112 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(#be904b,#42006C)
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 430px;
+    margin-top: 50px;
+    background-color: #fff;
+    padding-bottom: 4px;
+    border-radius: 18px;
+    box-shadow: rgba(60, 211, 47, 0.4) 5px 5px, rgba(50, 212, 48, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    margin-top: 15px;
+    font-family: "Ubuntu"
+
+}
+.text{
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+}
+.underline{
+    width: 60px;
+    height: 8px;
+    background-color: #3c009d;
+    border-radius: 8px;
+}
+.inputs{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 380px;
+    height: 60px;
+    background-color: #eaeaea;
+    border-radius: 8px;
+}
+
+.input img{
+    margin: 0px 30px;
+    /* filter: drop-shadow(0 0 0.02rem rgb(0, 0, 0)); */
+}
+.input  input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline:none;
+    color: #070707;
+    font-size: 18px;
+}
+
+.forgot-password{
+    padding-left: 60px;
+    margin-top: 30px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.forgot-password span{
+    color: blue;
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    gap: 12px;
+    margin: 50px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    background-color: #4c00b4;
+    border-radius: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray{
+    background-color: #EAEAEA;
+    color: #676767;
+}
+.submit:hover{
+    background-color: #4c00b4;
+
+}
